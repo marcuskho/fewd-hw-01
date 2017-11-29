@@ -1,3 +1,78 @@
-h1{
-	color:red;
+body{
+	font-family: 'Karla', sans-serif;
+	font-weight: 1.5;
+	color:black;
+	margin:0;
+
+}
+
+
+
+h1	{
+	color: white;
+	font-size: 50px;
+}
+
+
+
+div img{
+	float:right;
+
+}
+
+a{
+	color:white;
+	font-size: 16px;
+	font-weight: 700i;
+	text-decoration:none;
+	margin: 10px;
+}
+a:hover{
+	background-color: #ffe082;
+}
+
+.font{
+	color:orange;
+}
+
+.about{
+	padding-left: 30px;
+	margin-top: 100px;
+	background-color: white;
+	overflow:auto;
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.tababout{
+	color: orange;
+	text-align: center;
+	margin-top: 100px;
+	background: green;
+
+}
+
+
+
+
+
+
+header{
+	background-image:url(../images/backdrop1.jpg);
+	background-size:cover;
+	background-position: bottom;
+	text-align: center;
+	padding: 30px;
+}
+
+.bottom{
+	color:grey;
+}
+footer{
+	text-align: center;
+	padding: 80px;
 }
