@@ -3,9 +3,15 @@ body{
 	font-weight: 1.5;
 	color:black;
 	margin:0;
+	padding:0;
 
 }
 
+.about img{
+	border: 3px solid white;
+	border-radius: 50%;
+	text-align: center;
+}
 
 
 h1	{
@@ -15,18 +21,15 @@ h1	{
 
 
 
-div img{
-	float:right;
-
-}
 
 a{
 	color:white;
-	font-size: 16px;
-	font-weight: 700i;
+	
+	
 	text-decoration:none;
 	margin: 10px;
 }
+
 a:hover{
 	background-color: #ffe082;
 }
@@ -41,7 +44,7 @@ a:hover{
 	background-color: white;
 	overflow:auto;
 
-	border-top: 1px solid black;
+	
 	border-bottom: 1px solid black;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -57,7 +60,16 @@ a:hover{
 }
 
 
+.toyko{
+	text-align:center;
+	
+	color:white;
+	background-image:url(../images/image1a.jpg);
+	/* short cut for adding in multiple into 1 line background: green url(../images/background.jpg);*/
+	
 
+
+}
 
 
 
@@ -72,7 +84,59 @@ header{
 .bottom{
 	color:grey;
 }
+
+
+
+#imagelist{
+	font-size:0;
+	width:1018px;
+	margin: 0 auto;
+	
+}
+
+#imagelist a{
+
+	margin: 10px;
+	margin-top: 20px;
+	display: inline-block;
+	opacity: .9;
+	
+}
+
+#imagelist a:hover {
+
+	opacity: .3;
+	-webkit-trnasition:all .3s ease-in;
+	-moz-transition:all .3s ease-in;
+	-ms-transition:all .3s ease-in;
+	-o-transition:all .3s ease-in;
+	transition: all .3s ease-in;
+
+
+
+}
+
 footer{
 	text-align: center;
 	padding: 80px;
+}
+
+.container{
+	width:960px;
+	height: 700px;
+	margin: 0 auto;
+	padding: 30px 30px;
+	position: relative;
+	
+
+}
+
+.top-left{
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	color: #b8b8b8;
+
+
 }
